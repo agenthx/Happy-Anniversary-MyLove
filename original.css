@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 0;
+    background-color: hsl(341, 100%, 84%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6em;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.petContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 10px solid white;
+    padding: 10px;
+}
+
+#heart{
+    height: 80px;
+}
+
+#heartBtn{
+    background-color: hsl(341, 100%, 84%);
+    border: 0px;
+}
+
+#heart:hover{
+    height: 105px;
+}
+
+#petLabel{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#petname{
+    padding: 8px 20px;
+    box-shadow: 3px 5px 3px black;
+    border: 3px solid;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#submitBtn{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+    border: 3px solid;
+    box-shadow: 3px 5px 3px black;
+    border-radius: 5px;
+    background-color: rgb(255, 152, 169);
+}
+
+#submitBtn:hover {
+    background-color: rgb(179, 233, 255);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid;
+    background-color: hsl(0, 100%, 59%);
+    color: white;
+    font-size: 3.5em;
+}
+
+#popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 150px;
+    background-color: rgb(179, 233, 255);
+    border: 2px solid #333;
+    box-shadow: 8px 8px 8px black;
+    font-size: 1.5em;
+}
+
+.love-letter-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    z-index: 1000;
+}
+
+.love-letter-btn:hover {
+    background-color: #e754a5;
+}
