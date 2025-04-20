@@ -6,23 +6,31 @@
     <title>My Baby</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/heart.png">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Baby Me!</h1>
-    <br>
-   <div class="petContainer">
-    <button id="heartBtn">
-        <img src="images/heart.png" alt="heart" id="heart">
-    </button>
-    <label for="petname" id="petLabel">Enter Pet Name:</label>
-    <input type="text" id="petname" placeholder="Baby, Darling, Cutie ..etc">
-    <button id="submitBtn">Submit</button>
-    </div>
-    <p id="text"></p>
+    <main class="container">
+        <a href="original.html" class="love-letter-btn">The original 💌</a>
 
-    <div id="popup">
-        <p id="alert"></p>
-    </div>
-<script src="index.js"></script>
+        <h1>Baby Me! 💖</h1>
+
+        <div class="petContainer">
+            <button id="heartBtn">
+                <img src="images/heart.png" alt="heart" id="heart">
+            </button>
+
+            <label for="petname" id="petLabel">Enter Pet Name:</label>
+            <input type="text" id="petname" placeholder="Baby, Darling, Cutie...">
+            <button id="submitBtn">Submit</button>
+        </div>
+
+        <p id="text"></p>
+
+        <div id="popup">
+            <p id="alert"></p>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
 </body>
 </html>
